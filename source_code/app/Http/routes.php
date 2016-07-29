@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
+    return view('Backend.index');
+});
+Route::get('/table/', function () {
     return view('Backend.table');
 });
